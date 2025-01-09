@@ -1,11 +1,11 @@
 create table access_area(
- AREA_ID        INTEGER(10),
+ AREA_ID        INTEGER(10) PRIMARY KEY,
  AREA_CODE              VARCHAR(256),
  AREA_NAME              VARCHAR(256),
  AREA_CATEGORY          INTEGER);
 
 create table antenna(
- ANTENNA_ID        VARCHAR(31),
+ ANTENNA_ID        VARCHAR(31) PRIMARY KEY,
  GAIN                   NUMERIC,
  FRONT_TO_BACK          NUMERIC,
  H_BEAMWIDTH            NUMERIC,
@@ -27,11 +27,11 @@ create table antenna_pattern(
  ATTENUATION            NUMERIC);
 
 create table antenna_polarity(
- POLARISATION_CODE    VARCHAR(3),
+ POLARISATION_CODE    VARCHAR(3) PRIMARY KEY,
  POLARISATION_TEXT      VARCHAR(50));
 
 create table applic_text_block(
- APTB_ID        NUMERIC,
+ APTB_ID        NUMERIC PRIMARY KEY,
  APTB_TABLE_PREFIX    VARCHAR(30),
  APTB_TABLE_ID          NUMERIC(10),
  LICENCE_NO             VARCHAR(63),
@@ -56,7 +56,7 @@ create table auth_spectrum_freq(
  UP_FREQUENCY_END       NUMERIC);
 
 create table bsl(
- BSL_NO                 VARCHAR(31),
+ BSL_NO                 VARCHAR(31) PRIMARY KEY,
  MEDIUM_CATEGORY        VARCHAR(4000),
  REGION_CATEGORY        VARCHAR(4000),
  COMMUNITY_INTEREST     VARCHAR(4000),
@@ -70,16 +70,16 @@ create table bsl(
 );
 
 create table bsl_area(
- AREA_CODE        VARCHAR(256),
+ AREA_CODE        VARCHAR(256) PRIMARY KEY,
  AREA_NAME        VARCHAR(256)
 );
 
 create table class_of_station(
- CODE            VARCHAR(31),
+ CODE            VARCHAR(31) PRIMARY KEY,
  DESCRIPTION            VARCHAR(511));
 
 create table client(
- CLIENT_NO        NUMERIC,
+ CLIENT_NO        NUMERIC PRIMARY KEY,
  LICENCEE               VARCHAR(201),
  TRADING_NAME           VARCHAR(100),
  ACN                    VARCHAR(100),
@@ -93,11 +93,11 @@ create table client(
  FEE_STATUS_ID          NUMERIC);
 
 create table client_type(
- TYPE_ID        NUMERIC,
+ TYPE_ID        NUMERIC PRIMARY KEY,
  NAME                   VARCHAR(240));
 
 create table device_details(
- SDD_ID                   NUMERIC(10),
+ SDD_ID                   NUMERIC(10) PRIMARY KEY,
  LICENCE_NO                             VARCHAR(63),
  DEVICE_REGISTRATION_IDENTIFIER         VARCHAR(63),
  FORMER_DEVICE_IDENTIFIER               VARCHAR(63),
@@ -153,16 +153,16 @@ create table device_details(
  STATION_NAME                           VARCHAR(63));
 
 create table fee_status(
- FEE_STATUS_ID        NUMERIC,
+ FEE_STATUS_ID        NUMERIC PRIMARY KEY,
  FEE_STATUS_TEXT        VARCHAR(100));
 
 create table industry_cat(
- CAT_ID            NUMERIC,
+ CAT_ID            NUMERIC PRIMARY KEY,
  DESCRIPTION            VARCHAR(240),
  NAME                   VARCHAR(120));
 
 create table licence(
- LICENCE_NO        VARCHAR(63),
+ LICENCE_NO        VARCHAR(63) PRIMARY KEY,
  CLIENT_NO              NUMERIC,
  SV_ID                  NUMERIC(10),
  SS_ID                  NUMERIC(10),
@@ -176,27 +176,28 @@ create table licence(
  AP_ID                  NUMERIC(10),
  AP_PRJ_IDENT           VARCHAR(511),
  SHIP_NAME              VARCHAR(255),
- BSL_NO                 VARCHAR(31));
+ BSL_NO                 VARCHAR(31),
+ AWL_TYPE               VARCHAR(511));
 
 create table licence_service(
- SV_ID            NUMERIC(10),
+ SV_ID            NUMERIC(10) PRIMARY KEY,
  SV_NAME                VARCHAR(63));
 
 create table licence_status(
- STATUS            VARCHAR(10),
+ STATUS            VARCHAR(10) PRIMARY KEY,
  STATUS_TEXT            VARCHAR(511));
 
 create table licence_subservice(
- SS_ID            NUMERIC(10),
+ SS_ID            NUMERIC(10) PRIMARY KEY,
  SV_SV_ID               NUMERIC(10),
  SS_NAME                VARCHAR(95));
 
 create table licensing_area(
- LICENSING_AREA_ID    VARCHAR(31),
+ LICENSING_AREA_ID    VARCHAR(31) PRIMARY KEY,
  DESCRIPTION            VARCHAR(511));
 
 create table nature_of_service(
- CODE            VARCHAR(31),
+ CODE            VARCHAR(31) PRIMARY KEY,
  DESCRIPTION            VARCHAR(511));
 
 create table reports_text_block(
@@ -208,7 +209,7 @@ create table reports_text_block(
  RTB_TEXT               VARCHAR(4000));
 
 create table satellite(
- SA_ID            NUMERIC(10),
+ SA_ID            NUMERIC(10) PRIMARY KEY,
  SA_SAT_NAME            VARCHAR(31),
  SA_SAT_LONG_NOM        NUMERIC,
  SA_SAT_INCEXC          NUMERIC,
@@ -216,7 +217,7 @@ create table satellite(
  SA_SAT_MERIT_G_T       NUMERIC);
 
 create table site(
- SITE_ID        VARCHAR(31),
+ SITE_ID        VARCHAR(31) PRIMARY KEY,
  LATITUDE               NUMERIC,
  LONGITUDE              NUMERIC,
  NAME                   VARCHAR(767),
@@ -227,6 +228,13 @@ create table site(
  ELEVATION              NUMERIC,
  HCIS_L2        VARCHAR(31));
 
+create index site_LATITUDE on site (LATITUDE);
+create index site_LONGITUDE on site (LONGITUDE);
+
+create table radio_reference_emissions(
+  EMISSION VARCHAR(63),
+  DESCRIPTION TEXT
+);
 
 .mode csv
 .import spectra/access_area.csv access_area 
@@ -253,3 +261,5 @@ create table site(
 .import spectra/reports_text_block.csv reports_text_block 
 .import spectra/satellite.csv satellite 
 .import spectra/site.csv site 
+
+.import radio_reference_emissions.csv radio_reference_emissions

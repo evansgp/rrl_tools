@@ -1,0 +1,204 @@
+EMISSION,DESCRIPTION
+60H0J2B,PSK31.
+100HN0N,"Speed Radar (10525 MHz X band; 24150 MHz K band, 33800 MHz/34700 MHz/35500 MHz Ka band)."
+150HA1A,Continuous Wave Telegraphy (manually read Morse Code).
+500HJ2D,MT63-500 50 WPM.
+500HXXA,Dual carrier NDB (non-directional beacon) with 400 Hz modulation.
+800HA2A,Single carrier NDB (non-directional beacon) with 400 Hz modulation.
+1K00J2D,MT63-1000 100 WPM.
+1K12XXA,Dual carrier NDB (non-directional beacon) with 1020 Hz modulation.
+2K00J2D,MT63-2000 200 WPM.
+2K04A3A,Single carrier NDB (non-directional beacon) with 1020 Hz modulation.
+2K80J2B,HF RTTY (Radio Teletype).
+2K80J2D,HF PACTOR-III.
+2K80J3E,"Amplitude modulated (AM) analog 2.8 kHz voice, single sideband suppressed
+carrier (USB or LSB, not at the same time) (SSB mode in RadioReference.com Database)."
+2K90J3E,"Amplitude modulated (AM) analog 2.9 kHz voice, single sideband suppressed
+carrier (USB or LSB, not at the same time) (SSB mode in RadioReference.com Database)."
+3K00H2B,HF ALE MIL-STD-188-141A/FED-STD-1045.
+3K00J3E,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier) 3.0 kHz voice.
+3K30F1D,6.25 kHz SCADA link (CalAmp Viper SC – 173 MHz).
+3K50J3E,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier) 3.5 kHz voice.
+4K00F1D,"NXDN 6.25 kHz data (IDAS, NEXEDGE)."
+4K00F1E,"NXDN 6.25 kHz digital voice (IDAS, NEXEDGE)."
+4K00F1W,"NXDN 6.25 kHz digital voice and data (IDAS, NEXEDGE)."
+4K00F2D,"NXDN 6.25 kHz analog FM CW ID (IDAS, NEXEDGE)."
+4K00F7WDT,"NXDN 6.25 kHz digital voice and data (IDAS, NEXEDGE). (Canada)"
+4K00J1D,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier).
+4K00J2D,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier).
+4K00J3E,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier) 4.0 kHz voice.
+4K50J3E,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier) 4.5 kHz voice.
+5K00J3E,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier) 5.0 kHz voice.
+5K60F2D,SCADA.
+5K60G1D,NASA BPSK half-rate data for link forwarding and command links.
+5K76G1E,P25 CQPSK voice (typically used for simulcast systems – this is NOT P25 Phase II).
+6K00A3E,"Amplitude modulated (AM) analog voice, double sideband
+full carrier (AM mode in RadioReference.com Database)."
+6K00F1D,SCADA Carrier Frequency Shift Keying.
+6K00F2D,SCADA Audio Frequency Shift Keying.
+6K00F3D,"SCADA Analog data that is not AFSK (variable tone, DTMF, etc.)."
+6K00J3E,Amplitude Compandored Sideband (eSSB) (pilot tone/carrier) 6.0 kHz voice.
+6K50F1D,"SCADA/Data 4.8 GFSK in 12.5 kHz channelspace
+(LMR use by CalFire for AVL)."
+7K34FXDJN,2-slot DMR (Motorola MOTOTRBO) TDMA data. (Canada)
+7K60F7WDT,2-slot DMR (Motorola MotoTRBO and Various Tier 3) TDMA data + voice. (Canada)
+7K60FXD,2-slot DMR (Motorola MOTOTRBO) TDMA data.
+7K60FXDJN,2-slot DMR (Motorola MOTOTRBO) TDMA data. (Canada)
+7K60FXE,2-slot DMR (Motorola MOTOTRBO) TDMA voice.
+7K60FXW,2-slot DMR (Motorola MOTOTRBO) TDMA data + voice.
+8K00F1D,P25 Phase I C4FM data.
+8K10DXW,"P25 Phase II 4 Level H-CPM Data/Voice
+(Harmonized Continuous Phase Modulation – H-CPM)."
+8K10F1D,P25 Phase I C4FM data.
+8K10F1E,P25 Phase I C4FM voice (P25 mode in RadioReference.com Database).
+8K10F1W,"P25 Phase II subscriber units
+(Harmonized Continuous Phase Modulation – H-CPM)."
+8K30F1D,"NXDN 12.5 kHz data (Wide IDAS, NEXEDGE)."
+8K30F1E,"NXDN 12.5 kHz digital voice (Wide IDAS, NEXEDGE)."
+8K30F1W,"P25 Phase I C4FM hybridized voice and data applications
+(most commonly seen on trunked licenses)."
+8K30F7W,"NXDN 12.5 kHz digital voice and data (Wide IDAS, NEXEDGE)."
+8K40F1D,P25 Phase I (4 Level C4FM Data).
+8K40F1E,P25 Phase I (4 Level C4FM Voice).
+8K40F9W,Harris OpenSky (NPSPAC - 4 slot Data/Voice).
+8K50F9W,Harris OpenSky (2 slot narrowband).
+8K70D1W,"P25 Linear Simulcast Modulation ASTRO
+(9.6 kbps in 12.5 kHz channel spacing)."
+9K20F2D,"Zetron-based alphanumeric paging/alerting system
+(seen in practice using Daniels base stations)."
+9K30F1D,SCADA / Remote Control.
+9K36F7W,Yaesu System Fusion C4FM (Voice Wide * Voice Narrow + Data * Data Wide)
+9K70D1W,P25 Linear Simulcast Modulation “WCQPSK” voice (per Harris MASTR-V literature).
+9K70F1D,P25 Linear Simulcast Modulation “WCQPSK” data (per Harris MASTR-V literature).
+9K70F1E,P25 Linear Simulcast Modulation “WCQPSK” voice (per Harris MASTR-V literature).
+9K80D7W,"P25 Phase II fixed-end 2-slot TDMA
+(Harmonized Differential Quadrature Phase Shift Keyed modulation – H-DQPSK),
+per Motorola literature."
+9K80F1D,"P25 Phase II fixed-end 2-slot TDMA H-DQPSK data,
+per Harris MASTR-V literature."
+9K80F1E,"P25 Phase II fixed-end 2-slot TDMA H-DQPSK voice
+(interpolation of MASTR-V literature)."
+10K0F1D,LTI Automated Vehicle Location (AVL) system - LT6 Radio Modem.
+10K0F1D *,Motorola Widepulse ASTRO simulcast control channel.
+10K0F1D *,Motorola Widepulse ASTRO simulcast data.
+10K0F1D,RD-LAP 9.6 kbps data on narrowband channel.
+10K0F1E *,Motorola Widepulse ASTRO simulcast voice.
+10K1F3E,"Frequency modulated (FM) 2.5 kHz deviation analog voice,
+""narrowband 12.5 kHz"" (FMN mode in RadioReference.com Database). 
+Commonly used as a designator in Australia and Canada, identical to 11K2F3E."
+11K0F1D,Narrowband frequency modulated data.
+11K0F3E,"Narrowband frequency modulated analog voice, considered by the FCC to be identical to 11K2F3E."
+11K2F1D,"Narrowband frequency modulated data, POCSAG paging (Swissphone alerting)."
+11K2F2D,"Frequency modulated (FM) 2.5 kHz deviation
+audio frequency shift keying within a 12.5 kHz channel spacing. 
+Commonly used for 1.2 kbps packet, FFSK station alerting, and AFSK outdoor warning siren signaling."
+11K2F3D,"Frequency modulated (FM) 2.5 kHz deviation DTMF or
+other audible, non-frequency shift signaling, such as Whelen
+outdoor warning sirens or “Knox-Box®” activation."
+11K2F3E,"Frequency modulated (FM) 2.5 kHz deviation analog voice,
+""narrowband 12.5 kHz"" (FMN mode in RadioReference.com Database)
+- may also be 11K0 and 11K3 bandwidth in the United States, may also be 10K1 or 12K5 bandwidth in Australia or Canada."
+11K2F9W,"Formerly and incorrectly used as a catch-all narrowband emission for analog and digital use. Each appropriate emission 
+should be listed discretely."
+12K1F9W,Harris OpenSky (NPSPAC - 4 slot Data/Voice).
+12K5F2D,"AX.25 audio frequency-shift keying data link layer protocol 
+includes amateur radio APRS and packet."
+12K5F2E,"Frequency modulated (FM) 2.5 kHz deviation analog voice,
+""narrowband 12.5 kHz"" (FMN mode in RadioReference.com Database) 
+commonly used as a designator in Australia and Canada, identical to 11K2F3E."
+13K1F9W,Harris OpenSky (SMR - 4 slot).
+13K6F3E,"Frequency modulated (FM) analog voice,
+3.8 kHz deviation (900 MHz)."
+13K6W7W,Motorola iDEN (900 MHz).
+14K0F1D,Motorola 3600 baud trunked control channel (NPSPAC).
+14K0F3E,EDACS Analog Voice (NPSPAC).
+15K4F9W,Harris OpenSky (SMR - 4 slot Data/Voice).
+16K0F1D *,"Motorola 3600 baud trunked control channel; 
+also used for RD-LAP 9.6kbps data."
+16K0F1D,RD-LAP 9.6 data on wideband channel (NPSPAC).
+16K0F2D *,4 kHz deviation FM audio frequency shift keying (72 MHz fire alarm boxes).
+16K0F3E *,"Frequency modulated (FM) analog voice,
+4 kHz deviation (NPSPAC); (FM mode in RadioReference.com Database)."
+16K0G1D,EPIRB (406 MHz).
+16K8F1E *,"Encrypted Quantized Voice (Motorola DVP, DES, DES-XL on NPSPAC)."
+17K7D7D,"Motorola HPD High Performance Data – “Astro 25"" suite,
+as Motorola HAI (High performance data Air Interface), 
+700/800 MHz, requires 25 kHz channel spacing."
+20K0D1E,Reduced power TETRA – PowerTrunk 4/TDMA fixed-end (voice).
+20K0D1W,"Reduced power TETRA – PowerTrunk 4/TDMA fixed-end
+(simultaneous mixed modes)."
+20K0D7D,Reduced power TETRA (data).
+20K0D7E,Reduced power TETRA (voice).
+20K0D7W,Reduced power TETRA (simultaneous mixed modes).
+20K0F1D,"RD-LAP 19.2 kbps within a wideband channel
+(2013 compliant, meets data throughput requirement)."
+20K0F1E *,"Encrypted Quantized Voice (Motorola DVP, DES, DES-XL
+- NOT P25 DES-OFB/AES)."
+20K0F3D *,"Frequency modulated (FM) 5 kHz deviation DTMF
+or other audible, non-frequency shift signaling, such as Whelen
+outdoor warning sirens or “Knox-Box®” activation."
+20K0F3E *,"Frequency modulated (FM) analog voice,
+5 kHz deviation; ""wideband 25 kHz"" (FM mode in RadioReference.com Database)."
+20K0F9W,"A ""catch-all"" designator originally intended for a number of
+simultaneous emissions, but has been misused as a single
+designator to indicate multiple types of operation."
+20K0G7W,Motorola iDEN (800 MHz).
+20K0W7W,Motorola iDEN (800 MHz).
+20K1D1D,Reduced power TETRA – PowerTrunk 4/TDMA fixed-end (data).
+21K0D1W,TETRA ETS 300 392 Standard.
+22K0D1D,TETRA DMO Data
+22K0D1E,TETRA DMO Voice
+22K0D7D,TETRA TMO (data).
+22K0D7E,TETRA TMO (voice).
+22K0D7W,TETRA TMO (simultaneous mixed modes).
+22K0DXW,TETRA Subscriber Units (mobiles and control stations).
+25K0D7W,"TETRA (voice, data, or simultaneous mixed modes in Australia)."
+30K0DXW,TDMA-136 Cellular (North America).
+40K0F8W,AMPS Cellular.
+41K7Q7W,Iridium satellite terminals (1.616-1.626 GHz).
+41K7V7W,Iridium satellite terminals (1.616-1.626 GHz).
+55K0P0N,"CODAR oceanographic RADAR
+(swooping signals on HF with approx. 1 second sweep time) 3.5 - 5 MHz."
+100KC3F,ReconRobotics surveillance robot video (430-450 MHz).
+100KP0N,"CODAR oceanographic RADAR
+(swooping signals on HF with approx. 1 second sweep time) 12 - 14 MHz."
+170KP0N,CODAR oceanographic RADAR above 24 MHz.
+200KF8E,Broadcast FM with Subsidiary Communications Subcarrier.
+200KF8EHF,Broadcast FM with Subsidiary Communications Subcarrier and Frequency-Division Multiplexing (Australia).
+250KF3E,Television Broadcast Audio (NTSC analog).
+300KG7W,EDGE (Enhanced Data rates for GSM Evolution).
+300KGXW,GSM Cellular.
+500KD7W,Broadcast Radio Digital Studio to Transmitter Link 2048 kbps 32 QAM.
+500KF8W,Broadcast Radio Analog Studio to Transmitter Link.
+1M25F9W,CDMA Cellular.
+2M40W7D,"Remote Control Video (digital, non-NTSC)."
+3M00W7W,SouthernLinc LTE (all four emissions used) 3 MHz bandwidth.
+3M81F1D,NASA PCM/FM ground downlink data.
+4M00G7F,Compressed digital video with associated audio via satellite or microwave.
+4M15G1D,NASA International Space Station SQPN/SQPSK C2V2 (Common Communications for Visiting Vehicles) return data.
+4M15G1D,NASA International Space Station SSS-BPSK for C2V2 (Common Communications for Visiting Vehicles) link forwarding.
+4M31G1D,NASA/SpaceX SS-BPSK Dragon ground uplink data.
+4M80G1D,NASA Tracking and Data Relay Satellites SS-SOQPSK return data.
+5M00D7D,Public Safety LTE (all four emissions used) 5 MHz bandwidth.
+5M00G2D,Public Safety LTE (all four emissions used) 5 MHz bandwidth.
+5M00G7D,Public Safety LTE (all four emissions used) 5 MHz bandwidth.
+5M00W7W,Public Safety LTE (all four emissions used) 5 MHz bandwidth.
+5M75C3F,"Television, NTSC analog video (with 250K0F3E aural carrier)."
+6M00C7W,"Television, ATSC Digital TV (video and audio)."
+6M00F3F,Compressed analog video with associated audio via satellite or microwave.
+6M00F3F,QPSK modulated digital video with associated audio via satellite or microwave.
+10M0D7D,Public Safety LTE (all four emissions used) 10 MHz bandwidth.
+10M0G2D,Public Safety LTE (all four emissions used) 10 MHz bandwidth.
+10M0G7D,Public Safety LTE (all four emissions used) 10 MHz bandwidth.
+10M0W7W,Public Safety LTE (all four emissions used) 10 MHz bandwidth.
+20M0X2D,"INMARSAT BGAN, FleetBroadband and SwiftBroadband satellite broadband terminals."
+24M0G7F,Quadrature Phase Shift Keyed modulation digital video with digital audio/data via satellite or microwave.
+30M0D7W,Microwave Link Transmitter using 2048 QAM in 30 MHz bandwidth .
+36M0F3F,Compressed analog video with associated audio via satellite or microwave.
+36M0F3F,Quadrature Phase Shift Keyed modulated digital video with associated audio via satellite or microwave.
+42M6D7W,Microwave Link Transmitter Quadrature Phase Shift Keyed modulation.
+45M2D7W,Microwave Link Transmitter 16 QAM 45 MHz.
+45M8D7W,Microwave Link Transmitter 32 QAM 45 MHz.
+45M8D7W,Microwave Link Transmitter 64 QAM 45 MHz.
+47M1D7W,Microwave Link Transmitter 256 QAM 47 MHz.
+47M8D7W,Microwave Link Transmitter 128 QAM 47 MHz.
